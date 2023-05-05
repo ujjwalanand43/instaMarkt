@@ -1,0 +1,17 @@
+.iconWidth{
+    width: 8rem;
+    object-fit: contain;
+}
+
+.image{
+    display: flex;
+    margin-left: 1rem;
+    align-items: center;
+    justify-content: center;
+}
+.image> img{
+    width: 2rem;
+    height: 2rem;
+    border-radius: 10rem;
+}
+

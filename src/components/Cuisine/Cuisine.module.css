@@ -1,0 +1,26 @@
+.topNav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.allRestraurant{
+    text-decoration: none;
+    color: #ff0018;
+}
+
+.browse{
+    font-size: 28px;
+}
+
+@media only screen and (max-width: 500px) {
+    .topNav{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex-direction: column;
+        width: 100%;
+    }
+    
+  }

@@ -1,0 +1,30 @@
+.centerDiv{
+    /* display: flex;
+    align-items: center;
+    justify-content: center; */
+    padding: 2rem 20rem;
+}
+/* .ordersCard{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-column-gap: 80px;
+} */
+.populars,.insidePopulars{
+    margin-top: 2rem;
+}
+
+
+@media only screen and (max-width: 1650px) {
+    .centerDiv{
+        /* display: flex;
+        align-items: center;
+        justify-content: center; */
+        padding: 2rem 10rem;
+    }
+  }
+
+  @media only screen and (max-width: 1350px) {
+    .centerDiv{
+        padding: 2rem 2rem;
+    }
+  }

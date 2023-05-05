@@ -1,0 +1,75 @@
+.main{
+    width: 100%;
+    height: 43rem;
+    background-repeat: no-repeat;
+    background-image: linear-gradient(to top, #2d2d2dba, #1a191aa0) ,url('../../assets/Images/banner-6.a30bc2ce.jpg');
+}
+
+.text{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    flex-direction: column;
+    color: #fff;
+}
+
+.h1{
+    font-size: 60px;
+    width: 80%;
+    text-align: center;
+}
+.h3{
+    font-size: 28px;
+    width: 30%;
+    text-align: center;
+    margin-top: 1rem;
+    line-height: 1.5;
+
+}
+
+.button{
+    margin-top: 1rem !important;
+}
+
+.input{
+    padding: 10px 1rem;
+    width: 20rem;
+    border: 2px solid red;
+    outline: none;
+    border-radius: 5px;
+}
+
+.btn{
+    padding: 10px 1rem;
+}
+
+@media only screen and (max-width: 550px){
+    .h3{
+        font-size: 28px;
+        width: 80%;
+        text-align: center;
+        margin-top: 1rem;
+        line-height: 1.5;
+    
+    }
+    .input{
+        padding: 10px 1rem;
+        width: 20rem;
+        border: 2px solid red;
+        outline: none;
+        border-radius: 5px;
+    }
+}
+
+
+@media only screen and (max-width: 420px){
+  
+    .input{
+        padding: 10px 1rem;
+        width: 15rem;
+        border: 2px solid red;
+        outline: none;
+        border-radius: 5px;
+    }
+}

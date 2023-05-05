@@ -1,0 +1,50 @@
+.card{
+    margin-left: 0;
+    /* width: 14rem !important; */
+   
+}
+
+.btnBlock{
+    width: 100%;
+}
+
+
+@media only screen and (max-width: 1350px) {
+  .col{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .card{
+    width: 20rem;
+  }
+  }
+
+  @media only screen and (max-width: 750px) {
+    .col{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    .card{
+      width: 25rem !important;
+    }
+    }
+
+    @media only screen and (max-width: 600px) {
+      .col{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+      .card{
+        width: 25rem !important;
+      }
+      }
+
+      @media only screen and (max-width: 450px){
+        .card{
+            width: 20rem !important;
+          
+        }
+    }

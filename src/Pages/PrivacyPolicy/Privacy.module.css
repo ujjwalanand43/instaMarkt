@@ -1,0 +1,23 @@
+.mainPP{
+    padding: 2rem 20rem;
+}
+.mainPP > h1{
+    font-size: 3rem;
+}
+
+.ppTextH2{
+    font-size: 2rem;
+}
+span{
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+@media only screen and (max-width: 800px) {
+    .mainPP{
+        padding: 2rem 2rem;
+      
+    }
+
+  }

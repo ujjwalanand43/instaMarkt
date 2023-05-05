@@ -1,0 +1,11 @@
+.bigBanner{
+    background-image: url('../../assets/Images/vbanner-2.96f1aff7.jpg');
+    width: 100%;
+    height: 6rem;
+    /* background-repeat: no-repeat; */
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 2rem;
+}
