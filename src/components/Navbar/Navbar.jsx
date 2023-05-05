@@ -17,7 +17,7 @@ const Navbar = () => {
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
       <ul class="navbar-nav me-auto mb-2 mb-lg-0">
         <li class="nav-item">
-        <Link aria-current="page" className={`nav-link active ${styles.link}`} style={{color: 'red'}} to='/home'>Home</Link>
+        <Link aria-current="page" className={`nav-link active ${styles.link}`} style={{color: 'red'}} to='/'>Home</Link>
           {/* <a class="nav-link active" aria-current="page" href="#">Home</a> */}
         </li>
         <li class="nav-item">
